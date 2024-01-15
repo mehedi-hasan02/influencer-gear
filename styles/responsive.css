@@ -1,0 +1,78 @@
+@media screen and (max-width:670px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav h4{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    nav >ul {
+        margin-left: 10px;
+    }
+    nav >ul li{
+        margin-right: 20px;
+    }
+    .header-container ,.product-feature{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .header-container,.product-feature{
+        gap: 30px;
+    }
+    .title-container{
+        width: 100%;
+    }
+    .title{
+        font-size: 1.7rem;
+    }
+    .camera{
+        width: 100%;
+    }
+    .company{
+        flex-direction: column;
+        margin: 20px;
+        justify-content: center;
+    }
+    .company img{
+        margin-right: 20px;
+        width: 50px;
+    }
+    .first-row{
+        display: flex;
+        margin: 0 40px;
+    }
+    .second-row{
+        display: flex;
+        margin: 20px 80px;
+    }
+    main{
+        margin-top: 50px;
+    }
+    .main-container{
+        grid-template-columns: 1fr;
+        margin: 50px 30px;
+    }
+    .product-feature{
+        margin: 30px;
+    }
+    .product-feature> div,.feature-description,img{
+        width: 100%;   
+    }
+    .feature-title{
+        font-size: 1.5rem;
+    }
+    footer{
+        padding: 50px;
+    }
+    footer h3{
+        font-size: 1rem;
+    }
+    footer p{
+        font-size: 0.7rem;
+    }
+    footer img{
+        width: 20px;
+        margin: 10px;
+    }
+}

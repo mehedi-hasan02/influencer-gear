@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+header,main{
     max-width: 1440px;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
@@ -57,6 +57,7 @@ ul a{
     border: none;
 }
 .company{
+    display: flex;
     margin-top: 110px;
     margin-left: 210px;
     background: #FFF;
@@ -102,7 +103,6 @@ main{
 .product-description{
     color: #787885;
     font-size: 0.8rem;
-    /* width: 175px; */
 }
 .product-feature{
     margin: 100px 150px;
@@ -143,4 +143,8 @@ footer p{
 footer img{
     width: 30px;
     margin: 15px;
+}
+
+.hide{
+    display: none;
 }
